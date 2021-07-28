@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+    <link rel="stylesheet" href="./css/vocab.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+
+    <div class="vocab_body">
+        <div class="vocab_header">
+            <h1>Vocabulary</h1>
+        </div>
+        <div class="search_body">
+            <div class="search_section">
+                <input id="word_inp" type="text" required="on">
+                <i id="search" class="fas fa-search"></i>
+                <i id="reload" class="fas fa-redo"></i>
+            </div>
+            <div>
+                <h1 id="word"></h1>
+                <h1 id="meaning"></h1>
+            </div>
+        </div>
+        <div class="word_detail_section">
+
+            {{!-- <h5>Sentence</h5>
+            <p>Sample Sentence</p> --}}
+            <i class="fas fa-sad-tear"></i>
+            <h4>This Functionality will start after this week.</h4>
+
+        </div>
+    </div>
+
+    {{>footer}}
+    <script src="./js/vocab.js"></script>
+</body>
+
+</html>

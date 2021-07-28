@@ -1,0 +1,93 @@
+[
+    {
+        "hindi":"मैं भूल गया।",
+        "eng":"I forgot",
+        "struct":"Sub + V2"
+    },
+    {
+        "hindi":"उछलो",
+        "eng":"Jump",
+        "struct":"V1"
+    },
+    {
+        "hindi":"वाह-वाह",
+        "eng":"Cheers",
+        "struct":"V1"
+    },
+    {
+        "hindi":"समझे कि नहीं? ",
+        "eng":"Got it",
+        "struct":"V2 + it"
+    },
+    {
+        "hindi":"हम जीते।",
+        "eng":"We won",
+        "struct":"Sub + V2"
+    },
+    {
+        "hindi":"बहुत बढ़िया",
+        "eng":"Awesome",
+        "struct":"V1"
+    },
+    {
+        "hindi":"अंदर आ जाओ।",
+        "eng":"Come in",
+        "struct":"V1 + in"
+    },
+    {
+        "hindi":"बाहर निकल जाओ",
+        "eng":"Get out",
+        "struct":"V1 + out"
+    },
+    {
+        "hindi":"चले जाओ",
+        "eng":"Go away",
+        "struct":"V1 + away"
+    },
+    {
+        "hindi":"हम हार गए।",
+        "eng":"We lost",
+        "struct":"Sub + V2"
+    },
+    {
+        "hindi":"मज़े करो। / मौज करना।",
+        "eng":"Have fun",
+        "struct":"have + Ajective"
+    },
+    {
+        "hindi":"मैं भूल गया। / मैं भूल गई।",
+        "eng":"I forgot",
+        "struct":"Sub + V2"
+    },
+    {
+        "hindi":"मैं पैसे दूंगा।",
+        "eng":"I will pay",
+        "struct":"Sub + will + V1"
+    },
+    {
+        "hindi":"मेरा पेट भर गया है।",
+        "eng":"I am full",
+        "struct":"Sub + is/am/are + Ajective"
+    },
+    {
+        "hindi":"मुझे जवाब दो।",
+        "eng":"Answer me",
+        "struct":"V1 + Object"
+    },
+    {
+        "hindi":"पंछी उड़ते हैं।",
+        "eng":"Birds fly",
+        "struct":"Sub + V1"
+    },
+    {
+        "hindi":"माफ़ कीजिए।",
+        "eng":"Excuse me",
+        "struct":"V1 + Object"
+    },
+    {
+        "hindi":"मैं बेहोश हो गया।",
+        "eng":"I fainted",
+        "struct":"Sub + V2"
+    }
+]
+

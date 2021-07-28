@@ -1,0 +1,131 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+
+.test_header{
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    height:fit-content;
+    background-color: rgb(117, 117, 255);
+    border-radius: 0 0 15px 15px;
+    color:white;
+    margin-bottom:20px;
+    box-shadow: 2px 4px 5px gray;
+}
+
+.marks_timer_section{
+    display:flex;
+    height:30vh;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 20px;
+    
+}
+.time_Content{
+    width:90vw;
+    display:flex;
+    height:30vh;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px;
+    background-color: rgb(117, 117, 255);
+    color:white;
+    box-shadow: 2px 4px 5px gray;
+    border-radius: 15px 0px 15px 0px;
+}
+.time_Content > div{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center ;
+}
+.time_Content  div h4{
+    font-size: 16px;
+}
+
+#timer{
+    margin-left:20px;
+    font-size: 34px;
+
+}
+#score{
+ 
+    position: relative;
+    right:25px;
+}
+#score_inp{
+    display:none;
+}
+
+#tq{
+ 
+    position: relative;
+    right:50px;
+}
+#tq_inp{
+    display:none;
+}
+
+.test_section{
+    display: flex;
+    justify-content:center;
+    height:50vh;
+    color:white;
+}
+.test_section > form{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:space-evenly;
+    width:90vw;
+    border-radius:20px;
+    background-color:rgb(79, 142, 224);
+    /* background-image: linear-gradient(to right top, #8b5de0, #825fe2, #7961e5, #6f62e7, #6464e9); */
+    box-shadow: 2px 4px 5px rgb(79, 142, 224);
+    padding:20px;
+}
+.hindi_data{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center ;
+}
+
+#hindi{
+    padding:15px 30px;
+     background-image: linear-gradient(to right top, #8b5de0, #825fe2, #7961e5, #6f62e7, #6464e9);
+     border-radius: 30px;
+     font-size:18px;
+     width: fit-content;
+     box-shadow: 1px 1px 25px  rgb(27, 27, 27);
+}
+#struct{
+    padding:15px 30px;
+     background-image: linear-gradient(to right top, #8b5de0, #825fe2, #7961e5, #6f62e7, #6464e9);
+     border-radius: 30px;
+     font-size:18px;
+     width: fit-content;
+     box-shadow: 1px 1px 25px  rgb(27, 27, 27);
+}
+
+.input_section{
+    display:flex;
+    justify-content:center;
+}
+
+#english{
+    text-align:center;
+    font-size:16px;
+}
+.button_section{
+    display:flex;
+    justify-content:space-evenly;
+}
+.button_section button{
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 1px 1px 5px  rgb(27, 27, 27);
+}
+

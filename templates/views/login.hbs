@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+</head>
+
+<body>
+    <div class="container">
+        {{#if user}}
+        {{>userNavbar}}
+        {{else}}
+        {{>navbar}}
+        {{/if}}
+        {{!-- Login Form Starts --}}
+        <form action="/login"  class="mt-5" method="post">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
+            </div>
+            <div class="mb-3">
+                <label for="pswd" class="form-label">Password</label>
+                <input type="password" class="form-control" id="pswd" name="pswd">
+            </div>
+            <div class="mb-3">
+                <a href="/Signup" class="btn btn-outline-success ms-2" type="submit">Sign Up</a>
+                <button type="submit" class="btn btn-primary ms-3">Submit</button>
+            </div>
+
+        </form>
+    </div>
+
+    {{>footer}}
+</body>
+
+</html>

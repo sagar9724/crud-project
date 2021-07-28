@@ -1,0 +1,18 @@
+        #banner {
+            background-image: url(../img/bg/5566879.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        /* #r1 {
+    box-shadow: 10px 20px 20px white;
+    padding: 0;
+} */
+        
+        .navbar {
+            box-shadow: -100px 30px 40px white;
+            width: 100%;
+        }
+        
+        #test-img {
+            width: 50%;
+        }

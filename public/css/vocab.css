@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+
+.vocab_header{
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    height:fit-content;
+    background-color: rgb(117, 117, 255);
+    border-radius: 0 0 15px 15px;
+    color:white;
+    margin-bottom:20px;
+    box-shadow: 2px 4px 5px gray;
+}
+
+.search_body{
+    display:flex;
+    height:30vh;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-evenly;
+    margin-bottom: 20px;
+    background-color: rgb(117, 117, 255);
+    color:white;
+    box-shadow: 2px 4px 5px gray;
+    border-radius: 15px 0px 15px 0px;
+}
+.search_section{
+    width: 100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    
+}
+.search_section >input{
+    line-height: 40px;
+    text-align: center;
+    outline:none;
+    /* width:200px; */
+    border:none;
+    border-radius:10px;
+    margin-right: 10px;
+}
+.search_section > i{
+    margin-right: 10px;
+}
+
+.word_detail_section{
+    
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    height:55vh;
+    background:rgb(35, 112, 93);
+    border-radius:20px 0  20px 0;
+    color:white;
+}
+
+.word_detail_section >i{
+    font-size:40px;
+    margin-bottom: 20px;   
+}
+.word_detail_section >h4{
+       text-align:center;
+
+}

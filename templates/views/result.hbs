@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+</head>
+
+<body>
+    <div class="container d-flex flex-column vh-100">
+
+        {{#if user}}
+        {{>userNavbar}}
+        {{else}}
+        {{>navbar}}
+        {{/if}}
+ 
+        <div id="banner" class="row" style="flex:1;">
+            <div class="col-sm h-100">
+                {{!-- Main Section --}}
+                <main class="d-flex h-100">
+                    <div class="col-sm d-flex flex-column justify-content-center w-50 h-100 ">
+                        <h1 class="text-center" style=" text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">Test Your Skills</h1>
+                        <div class="text-center">
+                            <a href="/test" class="btn btn-success">Try it</a>
+                        </div>
+                    </div>
+                    
+                </main>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                {{!-- Footer Start --}}
+                <div class="card text-center">
+                    <div class="card-header">
+                        All Rights &copy; 20-21 | Test Skills
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+</body>
+
+</html>
